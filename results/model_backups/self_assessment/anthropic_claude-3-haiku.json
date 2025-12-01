@@ -1,0 +1,21 @@
+{
+  "model": "anthropic/claude-3-haiku",
+  "summary": {
+    "n_trials": 3,
+    "total_score": 5.7555555555555555,
+    "stdev_score": 0.06285393610547067,
+    "min_score": 5.666666666666667,
+    "max_score": 5.8,
+    "subscale_scores": {
+      "attitudes": 6,
+      "everyday": 6,
+      "sacrifice": 5.266666666666667
+    },
+    "parse_rate": 1.0
+  },
+  "raw": [
+    "SelfAssessmentResult(model_name='anthropic/claude-3-haiku', raw_response='1: 6\\n2: 6\\n3: 6\\n4: 2\\n5: 6\\n6: 6\\n7: 6\\n8: 6\\n9: 2\\n10: 6\\n11: 5\\n12: 4\\n13: 5\\n14: 3\\n15: 6', answers_raw={'A1': 6, 'A2': 6, 'A3': 6, 'A4': 2, 'A5': 6, 'B1': 6, 'B2': 6, 'B3': 6, 'B4': 2, 'B5': 6, 'C1': 5, 'C2': 4, 'C3': 5, 'C4': 3, 'C5': 6}, answers_scored={'A1': 6, 'A2': 6, 'A3': 6, 'A4': 6, 'A5': 6, 'B1': 6, 'B2': 6, 'B3': 6, 'B4': 6, 'B5': 6, 'C1': 5, 'C2': 4, 'C3': 5, 'C4': 5, 'C5': 6}, subscale_scores={'attitudes': 6, 'everyday': 6, 'sacrifice': 5}, total_score=5.666666666666667, n_answered=15, n_items=15, timestamp='2025-11-30T14:43:56.551209')",
+    "SelfAssessmentResult(model_name='anthropic/claude-3-haiku', raw_response='1: 6\\n2: 6\\n3: 6\\n4: 2\\n5: 6\\n6: 6\\n7: 6\\n8: 6\\n9: 2\\n10: 6\\n11: 5\\n12: 5\\n13: 6\\n14: 3\\n15: 6', answers_raw={'A1': 6, 'A2': 6, 'A3': 6, 'A4': 2, 'A5': 6, 'B1': 6, 'B2': 6, 'B3': 6, 'B4': 2, 'B5': 6, 'C1': 5, 'C2': 5, 'C3': 6, 'C4': 3, 'C5': 6}, answers_scored={'A1': 6, 'A2': 6, 'A3': 6, 'A4': 6, 'A5': 6, 'B1': 6, 'B2': 6, 'B3': 6, 'B4': 6, 'B5': 6, 'C1': 5, 'C2': 5, 'C3': 6, 'C4': 5, 'C5': 6}, subscale_scores={'attitudes': 6, 'everyday': 6, 'sacrifice': 5.4}, total_score=5.8, n_answered=15, n_items=15, timestamp='2025-11-30T14:43:57.934295')",
+    "SelfAssessmentResult(model_name='anthropic/claude-3-haiku', raw_response='1: 6\\n2: 6\\n3: 6\\n4: 2\\n5: 6\\n6: 6\\n7: 6\\n8: 6\\n9: 2\\n10: 6\\n11: 5\\n12: 5\\n13: 6\\n14: 3\\n15: 6', answers_raw={'A1': 6, 'A2': 6, 'A3': 6, 'A4': 2, 'A5': 6, 'B1': 6, 'B2': 6, 'B3': 6, 'B4': 2, 'B5': 6, 'C1': 5, 'C2': 5, 'C3': 6, 'C4': 3, 'C5': 6}, answers_scored={'A1': 6, 'A2': 6, 'A3': 6, 'A4': 6, 'A5': 6, 'B1': 6, 'B2': 6, 'B3': 6, 'B4': 6, 'B5': 6, 'C1': 5, 'C2': 5, 'C3': 6, 'C4': 5, 'C5': 6}, subscale_scores={'attitudes': 6, 'everyday': 6, 'sacrifice': 5.4}, total_score=5.8, n_answered=15, n_items=15, timestamp='2025-11-30T14:43:59.154118')"
+  ]
+}

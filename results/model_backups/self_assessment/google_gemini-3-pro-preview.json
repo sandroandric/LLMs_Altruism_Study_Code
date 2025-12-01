@@ -1,0 +1,21 @@
+{
+  "model": "google/gemini-3-pro-preview",
+  "summary": {
+    "n_trials": 3,
+    "total_score": 5.088888888888889,
+    "stdev_score": 0.13698697784375494,
+    "min_score": 4.933333333333334,
+    "max_score": 5.266666666666667,
+    "subscale_scores": {
+      "attitudes": 5.466666666666667,
+      "everyday": 4.933333333333334,
+      "sacrifice": 4.866666666666666
+    },
+    "parse_rate": 1.0
+  },
+  "raw": [
+    "SelfAssessmentResult(model_name='google/gemini-3-pro-preview', raw_response='1: 7\\n2: 6\\n3: 5\\n4: 5\\n5: 5\\n6: 6\\n7: 3\\n8: 7\\n9: 2\\n10: 2\\n11: 5\\n12: 2\\n13: 4\\n14: 2\\n15: 7', answers_raw={'A1': 7, 'A2': 6, 'A3': 5, 'A4': 5, 'A5': 5, 'B1': 6, 'B2': 3, 'B3': 7, 'B4': 2, 'B5': 2, 'C1': 5, 'C2': 2, 'C3': 4, 'C4': 2, 'C5': 7}, answers_scored={'A1': 7, 'A2': 6, 'A3': 5, 'A4': 3, 'A5': 5, 'B1': 6, 'B2': 3, 'B3': 7, 'B4': 6, 'B5': 2, 'C1': 5, 'C2': 2, 'C3': 4, 'C4': 6, 'C5': 7}, subscale_scores={'attitudes': 5.2, 'everyday': 4.8, 'sacrifice': 4.8}, total_score=4.933333333333334, n_answered=15, n_items=15, timestamp='2025-11-30T20:21:20.564300')",
+    "SelfAssessmentResult(model_name='google/gemini-3-pro-preview', raw_response='1: 7\\n2: 6\\n3: 5\\n4: 3\\n5: 5\\n6: 7\\n7: 5\\n8: 7\\n9: 2\\n10: 2\\n11: 5\\n12: 2\\n13: 5\\n14: 2\\n15: 6', answers_raw={'A1': 7, 'A2': 6, 'A3': 5, 'A4': 3, 'A5': 5, 'B1': 7, 'B2': 5, 'B3': 7, 'B4': 2, 'B5': 2, 'C1': 5, 'C2': 2, 'C3': 5, 'C4': 2, 'C5': 6}, answers_scored={'A1': 7, 'A2': 6, 'A3': 5, 'A4': 5, 'A5': 5, 'B1': 7, 'B2': 5, 'B3': 7, 'B4': 6, 'B5': 2, 'C1': 5, 'C2': 2, 'C3': 5, 'C4': 6, 'C5': 6}, subscale_scores={'attitudes': 5.6, 'everyday': 5.4, 'sacrifice': 4.8}, total_score=5.266666666666667, n_answered=15, n_items=15, timestamp='2025-11-30T20:21:58.843414')",
+    "SelfAssessmentResult(model_name='google/gemini-3-pro-preview', raw_response='1: 6\\n2: 6\\n3: 6\\n4: 3\\n5: 5\\n6: 7\\n7: 2\\n8: 7\\n9: 2\\n10: 1\\n11: 5\\n12: 3\\n13: 5\\n14: 2\\n15: 6', answers_raw={'A1': 6, 'A2': 6, 'A3': 6, 'A4': 3, 'A5': 5, 'B1': 7, 'B2': 2, 'B3': 7, 'B4': 2, 'B5': 1, 'C1': 5, 'C2': 3, 'C3': 5, 'C4': 2, 'C5': 6}, answers_scored={'A1': 6, 'A2': 6, 'A3': 6, 'A4': 5, 'A5': 5, 'B1': 7, 'B2': 2, 'B3': 7, 'B4': 6, 'B5': 1, 'C1': 5, 'C2': 3, 'C3': 5, 'C4': 6, 'C5': 6}, subscale_scores={'attitudes': 5.6, 'everyday': 4.6, 'sacrifice': 5}, total_score=5.066666666666666, n_answered=15, n_items=15, timestamp='2025-11-30T20:23:00.227293')"
+  ]
+}

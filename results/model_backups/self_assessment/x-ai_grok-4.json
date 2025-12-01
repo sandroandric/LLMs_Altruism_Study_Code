@@ -1,0 +1,21 @@
+{
+  "model": "x-ai/grok-4",
+  "summary": {
+    "n_trials": 3,
+    "total_score": 5.2,
+    "stdev_score": 0.144016459964619,
+    "min_score": 5,
+    "max_score": 5.333333333333333,
+    "subscale_scores": {
+      "attitudes": 5.866666666666666,
+      "everyday": 5.0,
+      "sacrifice": 4.733333333333333
+    },
+    "parse_rate": 1.0
+  },
+  "raw": [
+    "SelfAssessmentResult(model_name='x-ai/grok-4', raw_response='1: 7\\n2: 6\\n3: 5\\n4: 2\\n5: 5\\n6: 6\\n7: 3\\n8: 6\\n9: 2\\n10: 3\\n11: 5\\n12: 3\\n13: 5\\n14: 5\\n15: 6', answers_raw={'A1': 7, 'A2': 6, 'A3': 5, 'A4': 2, 'A5': 5, 'B1': 6, 'B2': 3, 'B3': 6, 'B4': 2, 'B5': 3, 'C1': 5, 'C2': 3, 'C3': 5, 'C4': 5, 'C5': 6}, answers_scored={'A1': 7, 'A2': 6, 'A3': 5, 'A4': 6, 'A5': 5, 'B1': 6, 'B2': 3, 'B3': 6, 'B4': 6, 'B5': 3, 'C1': 5, 'C2': 3, 'C3': 5, 'C4': 3, 'C5': 6}, subscale_scores={'attitudes': 5.8, 'everyday': 4.8, 'sacrifice': 4.4}, total_score=5, n_answered=15, n_items=15, timestamp='2025-11-30T20:24:05.172737')",
+    "SelfAssessmentResult(model_name='x-ai/grok-4', raw_response='1: 6\\n2: 6\\n3: 5\\n4: 2\\n5: 6\\n6: 6\\n7: 4\\n8: 7\\n9: 2\\n10: 3\\n11: 5\\n12: 3\\n13: 5\\n14: 3\\n15: 6', answers_raw={'A1': 6, 'A2': 6, 'A3': 5, 'A4': 2, 'A5': 6, 'B1': 6, 'B2': 4, 'B3': 7, 'B4': 2, 'B5': 3, 'C1': 5, 'C2': 3, 'C3': 5, 'C4': 3, 'C5': 6}, answers_scored={'A1': 6, 'A2': 6, 'A3': 5, 'A4': 6, 'A5': 6, 'B1': 6, 'B2': 4, 'B3': 7, 'B4': 6, 'B5': 3, 'C1': 5, 'C2': 3, 'C3': 5, 'C4': 5, 'C5': 6}, subscale_scores={'attitudes': 5.8, 'everyday': 5.2, 'sacrifice': 4.8}, total_score=5.266666666666667, n_answered=15, n_items=15, timestamp='2025-11-30T20:24:35.240869')",
+    "SelfAssessmentResult(model_name='x-ai/grok-4', raw_response='1: 6\\n2: 6\\n3: 6\\n4: 2\\n5: 6\\n6: 6\\n7: 4\\n8: 6\\n9: 2\\n10: 3\\n11: 5\\n12: 3\\n13: 5\\n14: 2\\n15: 6', answers_raw={'A1': 6, 'A2': 6, 'A3': 6, 'A4': 2, 'A5': 6, 'B1': 6, 'B2': 4, 'B3': 6, 'B4': 2, 'B5': 3, 'C1': 5, 'C2': 3, 'C3': 5, 'C4': 2, 'C5': 6}, answers_scored={'A1': 6, 'A2': 6, 'A3': 6, 'A4': 6, 'A5': 6, 'B1': 6, 'B2': 4, 'B3': 6, 'B4': 6, 'B5': 3, 'C1': 5, 'C2': 3, 'C3': 5, 'C4': 6, 'C5': 6}, subscale_scores={'attitudes': 6, 'everyday': 5, 'sacrifice': 5}, total_score=5.333333333333333, n_answered=15, n_items=15, timestamp='2025-11-30T20:24:54.554144')"
+  ]
+}
