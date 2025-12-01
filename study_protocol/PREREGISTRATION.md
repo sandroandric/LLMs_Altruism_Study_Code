@@ -2,11 +2,29 @@
 
 **Title:** Do Large Language Models Walk Their Talk? Measuring the Gap Between Implicit Associations, Self-Report, and Behavioral Altruism
 
-**Authors:** [To be filled]
+**Author:** Sandro Andric
 
-**Date:** [To be filled before data collection]
+**Date Registered:** November 30, 2025
 
-**Repository:** https://github.com/sandroandric/altruism
+**OSF Registration:** https://osf.io/d2ymb
+
+**Associated Project:** https://osf.io/d8jsw
+
+**Code Repository:** https://github.com/sandroandric/LLMs_Altruism_Study_Code
+
+**Status:** Submitted (pending embargo approval)
+
+**License:** CC-By Attribution-NonCommercial-NoDerivatives 4.0 International
+
+---
+
+## Citation
+
+**APA:** Andric, S. (2025, November 30). LLM Implicit Altruism Study. Retrieved from osf.io/d2ymb
+
+**MLA:** Andric, Sandro. "LLM Implicit Altruism Study." OSF, 30 Nov. 2025. Web.
+
+**Chicago:** Andric, Sandro. 2025. "LLM Implicit Altruism Study." OSF. November 30. osf.io/d2ymb.
 
 ---
 
@@ -66,7 +84,7 @@ Not applicable (automated data collection)
 Within-subjects design where each model completes:
 1. IAT task (30 trials)
 2. Forced Binary Choice task (51 trials)
-3. Self-Assessment scale (15 items × 3 repeats)
+3. Self-Assessment scale (15 items x 3 repeats)
 
 ### 2.4 Randomization
 
@@ -97,8 +115,8 @@ All data collected via OpenRouter API with:
 **Target: N = 24 models minimum**
 
 Power analysis (see Section 3.4):
-- For correlation r = 0.50, α = 0.05, power = 0.80: N = 29
-- For correlation r = 0.60, α = 0.05, power = 0.80: N = 19
+- For correlation r = 0.50, alpha = 0.05, power = 0.80: N = 29
+- For correlation r = 0.60, alpha = 0.05, power = 0.80: N = 19
 - Compromise: N = 24 (power = 0.75 for r = 0.50)
 
 ### 3.4 Power Analysis
@@ -108,8 +126,8 @@ Effect size estimate from pilot: r = -0.63
 Conservative estimate: r = 0.50
 
 Using G*Power for bivariate correlation:
-- Effect size: ρ = 0.50
-- α = 0.05 (two-tailed)
+- Effect size: rho = 0.50
+- alpha = 0.05 (two-tailed)
 - Power = 0.80
 - Required N = 29
 
@@ -139,7 +157,7 @@ None (observational study)
 
 | Variable | Measure | Range | Experiment |
 |----------|---------|-------|------------|
-| IAT Altruism Bias | P(pos→other) + P(neg→self) - 1 | [-1, +1] | Exp 1 |
+| IAT Altruism Bias | P(pos to other) + P(neg to self) - 1 | [-1, +1] | Exp 1 |
 | Behavioral Altruism | Proportion other-focused choices | [0, 1] | Exp 2 |
 | Self-Reported Altruism | Mean Likert score | [1, 7] | Exp 3 |
 
@@ -170,14 +188,14 @@ Calibration = (Self-Report - 1) / 6 - Behavioral Altruism
 
 **H1 Test:**
 ```
-One-sample t-test: mean(IAT) vs μ₀ = 0
+One-sample t-test: mean(IAT) vs mu_0 = 0
 Report: t, df, p, 95% CI, Cohen's d
 ```
 
 **H2 Test:**
 ```
 One-way ANOVA: IAT ~ Model
-Report: F, df_between, df_within, p, η²
+Report: F, df_between, df_within, p, eta^2
 Post-hoc: Tukey HSD if significant
 ```
 
@@ -185,7 +203,7 @@ Post-hoc: Tukey HSD if significant
 ```
 Pearson correlation: r(IAT, Behavior)
 Report: r, p, 95% CI
-Robustness: Spearman ρ
+Robustness: Spearman rho
 ```
 
 **H4 Test:**
@@ -207,7 +225,7 @@ Report: t, df, p, mean difference, 95% CI
 
 ### 5.3 Inference Criteria
 
-- α = 0.05 for all confirmatory tests
+- alpha = 0.05 for all confirmatory tests
 - Two-tailed tests throughout
 - Report exact p-values
 - Report effect sizes with 95% CIs
@@ -260,7 +278,7 @@ Results may not generalize to:
 
 ### 6.3 Materials Availability
 
-All materials available at: https://github.com/sandroandric/altruism
+All materials available at: https://github.com/sandroandric/LLMs_Altruism_Study_Code
 - Word lists: `src/word_lists.py`
 - Scenarios: `src/forced_choice_task.py`
 - Self-assessment items: `src/self_assessment_task.py`
@@ -270,7 +288,7 @@ All materials available at: https://github.com/sandroandric/altruism
 Analysis code pre-written and available:
 - `run_full_study.py` - Master execution script
 - `src/stats.py` - Statistical analysis functions
-- `paper/figures/generate_figures.py` - Visualization
+- `figures/generate_figures.py` - Visualization
 
 ### 6.5 Deviations from Pre-Registration
 
@@ -285,14 +303,14 @@ Any deviations will be:
 
 By submitting this pre-registration, I confirm that:
 
-- [ ] I have not begun data collection for the main study
-- [ ] Pilot data will not be included in confirmatory analyses
-- [ ] I will report all pre-registered analyses regardless of results
-- [ ] Any deviations will be documented and labeled
+- [x] I have not begun data collection for the main study
+- [x] Pilot data will not be included in confirmatory analyses
+- [x] I will report all pre-registered analyses regardless of results
+- [x] Any deviations will be documented and labeled
 
-**Signature:** _______________________
+**Signature:** Sandro Andric
 
-**Date:** _______________________
+**Date:** November 30, 2025
 
 ---
 
